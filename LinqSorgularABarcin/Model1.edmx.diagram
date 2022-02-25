@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b24689eda20e4ccca4b7d3cd1a0786cf" Name="Diagram1">
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.ArabaModel" Width="1.5" PointX="6" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Arac" Width="1.5" PointX="8.25" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.AracFiyat" Width="1.5" PointX="10.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.AracOzellik" Width="1.5" PointX="13.5" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.AracParca" Width="1.5" PointX="10.5" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.AracStatu" Width="1.5" PointX="16.5" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.AracTeklif" Width="1.5" PointX="15.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.AracTramer" Width="1.5" PointX="10.5" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.AracTramerDetay" Width="1.5" PointX="12.75" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Calisan" Width="1.5" PointX="3" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.CalisanIletisim" Width="1.5" PointX="5.25" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Ekspertiz" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.FavoriArama" Width="1.5" PointX="11.25" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.FavoriAramaKriter" Width="1.5" PointX="9" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.FavoriIlan" Width="1.5" PointX="12.75" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.FavoriOzellik" Width="1.5" PointX="13.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Firma" Width="1.5" PointX="9" PointY="64" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.FirmaIletisim" Width="1.5" PointX="15.25" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.FirmaTip" Width="1.5" PointX="6.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Fotograf" Width="1.5" PointX="10.5" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Ihale" Width="1.5" PointX="8.25" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.IhaleArac" Width="1.5" PointX="13.5" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.IhaleStatu" Width="1.5" PointX="8.25" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.IhaleSurec" Width="1.5" PointX="10.5" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Ilan" Width="1.5" PointX="10.5" PointY="48.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Ilce" Width="1.5" PointX="4.5" PointY="66.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.IletisimTur" Width="1.5" PointX="9" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Kullanici" Width="1.5" PointX="6" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.KullaniciIletisim" Width="1.5" PointX="11.25" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.KullaniciTip" Width="1.5" PointX="3.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.KurumsalIhale" Width="1.5" PointX="10.5" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.KurumsalKullanici" Width="1.5" PointX="11.25" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Log" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Marka" Width="1.5" PointX="6" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Ozellik" Width="1.5" PointX="9" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.OzellikBilgi" Width="1.5" PointX="11.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Paket" Width="1.5" PointX="6.75" PointY="63.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Rol" Width="1.5" PointX="0.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.RolYetki" Width="1.5" PointX="6" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Sayfa" Width="1.5" PointX="3.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Sehir" Width="1.5" PointX="4.5" PointY="69.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.SehirIlce" Width="1.5" PointX="6.75" PointY="68" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Statu" Width="1.5" PointX="14.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Stok" Width="1.5" PointX="11.25" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.TramerDetay" Width="1.5" PointX="10.5" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Slytherin_AracIhaleModel.Yetki" Width="1.5" PointX="3.75" PointY="36.5" IsExpanded="true" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Arac_dbo_ArabaModel_ModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FavoriAramaKriter_dbo_ArabaModel_ModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Arac_dbo_Kullanici_KullaniciID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Arac_dbo_Marka_MarkaID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracFiyat_dbo_Arac_AracID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracOzellik_dbo_Arac_AracID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracStatu_dbo_Arac_AracID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracTramer_dbo_Arac_AracID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Fotograf_dbo_Arac_AracID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_IhaleArac_dbo_Arac_AracID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Ilan_dbo_Arac_AracID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracOzellik_dbo_OzellikBilgi_OzellikBilgiID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracTramerDetay_dbo_AracParca_AracParcaID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracStatu_dbo_Statu_StatuID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracTeklif_dbo_IhaleArac_IhaleAracID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracTeklif_dbo_Kullanici_KullaniciID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracTramerDetay_dbo_AracTramer_AracTramerID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_AracTramerDetay_dbo_TramerDetay_TramerDetayID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Calisan_dbo_Rol_RolID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_CalisanIletisim_dbo_Calisan_CalisanID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Ihale_dbo_Calisan_CalisanID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_CalisanIletisim_dbo_IletisimTur_IletisimTuruID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FavoriArama_dbo_FavoriAramaKriter_FavoriAramaKriterID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FavoriArama_dbo_Kullanici_KullaniciID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FavoriAramaKriter_dbo_Marka_MarkaID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FavoriOzellik_dbo_FavoriAramaKriter_FavoriAramaKriterID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FavoriIlan_dbo_Ilan_IlanID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FavoriIlan_dbo_Kullanici_KullaniciID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FavoriOzellik_dbo_OzellikBilgi_OzellikBilgiID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Firma_dbo_FirmaTip_FirmaTipID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Firma_dbo_Paket_PaketID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Firma_dbo_SehirIlce_SehirIlceID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FirmaIletisim_dbo_Firma_FirmaID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_KurumsalKullanici_dbo_Firma_FirmaID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Stok_dbo_Firma_FirmaID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_FirmaIletisim_dbo_IletisimTur_IletisimTuruID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Ihale_dbo_KullaniciTip_KullaniciTipID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_IhaleArac_dbo_Ihale_IhaleID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_IhaleSurec_dbo_Ihale_IhaleID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_KurumsalIhale_dbo_Ihale_IhaleID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_IhaleSurec_dbo_IhaleStatu_IhaleStatuID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_SehirIlce_dbo_Ilce_IlceID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_KullaniciIletisim_dbo_IletisimTur_IletisimTuruID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Kullanici_dbo_KullaniciTip_KullaniciTipID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_Kullanici_dbo_Rol_RolID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_KullaniciIletisim_dbo_Kullanici_KullaniciID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_KurumsalKullanici_dbo_Kullanici_KullaniciID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_OzellikBilgi_dbo_Ozellik_OzellikID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_RolYetki_dbo_Rol_RolID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_RolYetki_dbo_Sayfa_SayfaID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_RolYetki_dbo_Yetki_YetkiID" ManuallyRouted="false" />
+        <AssociationConnector Association="Slytherin_AracIhaleModel.FK_dbo_SehirIlce_dbo_Sehir_SehirID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
