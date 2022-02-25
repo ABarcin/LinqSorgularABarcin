@@ -1,10 +1,11 @@
-﻿using System;
+﻿using LinqSorgularABarcin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LinqSorgularABarcin
+namespace LinqSorgularABgrin
 {
     class Program
     {
@@ -32,14 +33,15 @@ namespace LinqSorgularABarcin
 
             var query2 = (from arac in context.Arac.ToList()
                                 join aracFiyat in context.AracFiyat on arac.AracID equals aracFiyat.AracID
-                                join ia in context.IhaleArac on arac.AracID equals ia.AracID
-                                join t in context.AracTeklif on ia.IhaleAracID equals t.IhaleAracID
-                                group new { arac, aracFiyat, t } by new { arac.AracID } into arc
+                                join aracIhale in context.IhaleArac on arac.AracID equals aracIhale.AracID
+                                join t in context.AracTeklif on aracIhale.IhaleAracID equals t.IhaleAracID
+                                group new { arac, aracFiyat, t } by new { arac.AracID } into gr
                                 select new
                                 {
-                                    AracID = arc.Key,
-                                    KarMiktari = (arc.Where(x => x.t.TeklifOnay == true).OrderByDescending(x => x.t.TeklifFiyat).Select(x => x.t.TeklifFiyat).FirstOrDefault()) - (arc.OrderByDescending(x => x.aracFiyat.Tarih)).Select(x => x.aracFiyat.Fiyat).FirstOrDefault()
+                                    AracID = gr.Key,
+                                    Kar = (gr.Where(x => x.t.TeklifOnay == true).OrderByDescending(x => x.t.TeklifFiyat).Select(x => x.t.TeklifFiyat).FirstOrDefault()) - (gr.OrderByDescending(x => x.aracFiyat.Tarih)).Select(x => x.aracFiyat.Fiyat).FirstOrDefault()
                                 }).ToList();
+
             Console.ReadLine();
 
         }
