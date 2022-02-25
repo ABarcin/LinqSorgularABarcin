@@ -30,7 +30,7 @@ namespace LinqSorgularABgrin
                             AracTeklifCount=gr.Select(x=>x.aracIhale.AracID).Count()
                          }).ToList();
 
-
+            //Araç Başı karlılık oranını hesaplayınız.
             var query2 = (from arac in context.Arac.ToList()
                                 join aracFiyat in context.AracFiyat on arac.AracID equals aracFiyat.AracID
                                 join aracIhale in context.IhaleArac on arac.AracID equals aracIhale.AracID
@@ -41,6 +41,14 @@ namespace LinqSorgularABgrin
                                     AracID = gr.Key,
                                     Kar = (gr.Where(x => x.t.TeklifOnay == true).OrderByDescending(x => x.t.TeklifFiyat).Select(x => x.t.TeklifFiyat).FirstOrDefault()) - (gr.OrderByDescending(x => x.aracFiyat.Tarih)).Select(x => x.aracFiyat.Fiyat).FirstOrDefault()
                                 }).ToList();
+            //2.el araç ekspertiz yapılan araç sayısı çoktan aza sıralayınız. 
+            var query3 = (from aracTramer in context.AracTramer.ToList()
+                                   group new { aracTramer } by new { aracTramer.AracID } into gr
+                                   select new
+                                   {
+                                       AracID = gr.Key,
+                                       EkspertCount = gr.Count()
+                                   }).ToList().OrderByDescending(x => x.EkspertCount);
 
             Console.ReadLine();
 
